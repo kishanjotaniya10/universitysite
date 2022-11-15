@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@600;700&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <h1><span>HARVARD </span> UNIVERSITY</h1>
+        </div>
+
+        <nav class="main-menu">
+            <ul>
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="#">Courses</a></li>
+                <li class="item"><a href="#">Contact</a></li>
+                <li class="item"><a href="#">External</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <video class="banner" autoplay loop muted>
+            <source src="images/New video4.mp4" type="video/mp4" height="500">    
+        </video>
+        <center>
+            <div class="banner-text">
+                <h1>Harvard University</h1>
+            </div>
+        </center>
+
+
+    </section>
+
+    <section id="banner1">
+        <center>
+            <div class="text">
+                <h2>Why Choose Harvard University?</h2>
+            </div>
+        </center>
+
+        <center>
+            <div id="center">
+                <div class="left">
+                    <img src="images/choose-us-image-01.png">
+                </div>
+                <div class="right">
+                    <h4>Best Education</h4>
+                    <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS layout. Feel free to use it for educational or commercial purposes. You may want to a little donation to TemplateMo. Please tell your friends about us. Thank you.</p>
+                </div>
+            </div>
+        </center>
+    </section>
+
+    <section id="banner2">
+        <div class="left">
+            <h1>Take <span>any online course </span> and win $326 for your next class</h1>
+            <div class="boxes">
+                <div class="box1">
+                    <h2>169</h2>
+                    <p>Days</p>
+                </div>
+                <div class="box1">
+                    <h2>4</h2>
+                    <p>Hours</p>
+                </div>
+                <div class="box1">
+                    <h2>37</h2>
+                    <p>Minutes</p>
+                </div>
+                <div class="box1">
+                    <h2>5</h2>
+                    <p>Seconds</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="right">
+            <div class="right-text">
+                <p>Register your free account and get immediate access to online courses</p>
+            </div>
+            <form>
+
+                <input type="text" placeholder="Enter Your Name" id="name" onblur="ValidData(this,'nameerror')" onkeydown="namevalid(this,'namereg')">
+                <span id="namerror"></span>
+                <span id="namereg"></span>
+
+
+                <input type="text" placeholder="Enter Your E-mail" name="email" onblur="ValidData(this,'emailerror')" onkeydown="Emailvalid(this,'emaireg')">
+                <span id="emailrror"></span>
+                <span id="emaireg"></span>
+
+                <input type="text" name="phone" placeholder="Enter Your Phone Number" onblur="ValidData(this,'phoneerror')" onkeydown="phonevalid(this,'phonereg')">
+                <span id="phonerror"></span>
+                <span id="phonereg"></span>
+
+                <button class="btn2">Get It Now</button>
+            </form>
+        </div>
+
+    </section>
+
+    <section id="courses">
+        <center>
+            <div class="text">
+                <h1>Choose Your Course</h1>
+            </div>
+        </center>
+
+
+        <div class="course-details">
+            <img src="images/courses-01.jpg">
+
+            <div class="down-content">
+                <h4>Nursing</h4>
+                <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
+                <div class="author-image">
+                    <img src="images/author-01.png" alt="Author 1">
+                </div>
+                <div class="text-button-pay">
+                    <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="course-details">
+            <img src="images/courses-02.jpg">
+
+            <div class="down-content">
+                <h4>Digital Marketing</h4>
+                <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
+                <div class="author-image">
+                    <img src="images/author-02.png" alt="Author 1">
+                </div>
+                <div class="text-button-pay">
+                    <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="course-details">
+            <img src="images/courses-03.jpg">
+
+            <div class="down-content">
+                <h4>Web Development</h4>
+                <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
+                <div class="author-image">
+                    <img src="images/author-03.png" alt="Author 1">
+                </div>
+                <div class="text-button-pay">
+                    <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="course-details">
+            <img src="images/courses-04.jpg">
+
+            <div class="down-content">
+                <h4>Photography</h4>
+                <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
+                <div class="author-image">
+                    <img src="images/author-04.png" alt="Author 1">
+                </div>
+                <div class="text-button-pay">
+                    <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="banner3">
+        <div class="left">
+            <p class="text1">OUR PRESENTATION IS FOR YOU</p>
+            <h1>Watch the video to learn more <span>about Harvad University </span></h1>
+            <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. You may <span>contact Template Mo</span>                for details
+            </p>
+            <p>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
+            <button class="btn3">EXTERNAL URL</button>
+        </div>
+
+        <div class="right">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/r9LtOG6pNUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <center>
+            <div class="text">
+                <h1>Let’s Keep In Touch</h1>
+            </div>
+        </center>
+
+        <form>
+            <input type="text" placeholder="Enter Your Name" required>
+
+            <input type="text" placeholder="Enter Your E-mail" required>
+            <textarea type="text" placeholder="Enter Your Message"></textarea>
+
+            <button class="btn5">Send Message Now </button>
+        </form>
+
+
+        <div class="right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29532.548339160556!2d70.71360826492305!3d22.29432795413521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c9104a2ab065%3A0xb699d431da57f54e!2sKrishna%20King%20Water%20Park!5e0!3m2!1sen!2sin!4v1658550039826!5m2!1sen!2sin"
+                width="600" height="375" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    </section>
+
+    <footer>
+        <hr></hr>
+        <p>COPYRIGHT 2022 BY HARVARD UNIVERSITY | DESIGN: <span>KISHAN JOTANIYA</span> DISTRIBUTED BY:
+            <span>HARVARD UNIVERSITY</span>
+        </p>
+    </footer>
+</body>
+
+</html>
